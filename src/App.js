@@ -38,6 +38,29 @@ function App() {
           <img src={twitter} alt="twitterbanner" />
         </div>
       {/* footer links */}
+      <div class="grid  grid-cols-4 px-10 grid-rows-4 md:flex md:justify-between md:items-center md:px-9 md:
+      pt-3">
+        <div className='text-gray-600 hover:underline text-xs'>About</div>
+        <div className='text-gray-600 hover:underline text-xs'>Help center</div>
+        <div className='text-gray-600 hover:underline text-xs'>Terms of Service</div>
+        <div className='text-gray-600 hover:underline text-xs'>Privacy Policy</div>
+        <div className='text-gray-600 hover:underline text-xs'>Cookie Policy</div>
+        <div className='text-gray-600 hover:underline text-xs'>Accessibility</div>
+        <div className='text-gray-600 hover:underline text-xs'>Ads info</div>
+        <div className='text-gray-600 hover:underline text-xs'>Blog</div>
+        <div className='text-gray-600 hover:underline text-xs'>Status</div>
+        <div className='text-gray-600 hover:underline text-xs'>Careers</div>
+        <div className='text-gray-600 hover:underline text-xs'>Brand Resources</div>
+        <div className='text-gray-600 hover:underline text-xs'>Advertising</div>
+        <div className='text-gray-600 hover:underline text-xs'>Marketing</div>
+        <div className='text-gray-600 hover:underline text-xs'>Twitter for Business</div>
+        <div className='text-gray-600 hover:underline text-xs'>Developers</div>
+        <div className='text-gray-600 hover:underline text-xs'>Directory</div>
+        <div className='text-gray-600 hover:underline text-xs'>Settings</div>
+      </div>
+      <div className='text-gray-600 text-xs text-center pt-3 pb-4'>
+        <h1>&copy; 2022 Twitter, Inc.</h1>
+      </div>
     </React.Fragment>
   );
 }
